@@ -27,6 +27,16 @@ Unsharp Mask: Após o desfoque, utilizou-se uma máscara de nitidez para realça
 
 Contrast Enhancement: O contraste das imagens foi intensificado para tornar as diferenças de cor mais distintas, melhorando assim a separação visual, o que facilita a detecção de keypoints.
 
+## Analise de gráficos e resultados
+
+### 1. 10 image IDs por contagem de anotações de bovinos
+
+### 2. Histograma de contagens de anotações de bovinos
+
+### 3. Boxplot da distribuição de keypoints por categoria
+
+### 4. Distribuição de Brilho por Canal RGB
+
 ## Principais limitações
 
 * Dependendo da posição que o animal se encontra, dificulta a detecção de keypoints na imagem;

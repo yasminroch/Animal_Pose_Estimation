@@ -30,12 +30,40 @@ Contrast Enhancement: O contraste das imagens foi intensificado para tornar as d
 ## Analise de gráficos e resultados
 
 ### 1. 10 image IDs por contagem de anotações de bovinos
+Este gráfico de barras mostra a contagem de anotações para os dez IDs de imagens com mais anotações dentro do dataset de bovinos.
+
+Distribuição: A distribuição mostra que algumas imagens têm significativamente mais anotações que outras, indicando uma possível variação na qualidade ou no conteúdo visual das imagens.
+
+Utilidade: O gráfico é útil para identificar quais imagens podem requerer uma revisão mais detalhada, talvez devido à complexidade ou de mais características.
+
+![10 image IDs por contagem de anotações de bovinos](img/10images.png)
 
 ### 2. Histograma de contagens de anotações de bovinos
+Este histograma representa a frequência das contagens de anotações por imagem
+
+Poucas Anotações: A maioria das imagens tem poucas anotações, como indicado pela barra mais alta para imagens com apenas duas anotações.
+
+Além disso, uma alta frequência de imagens com poucas anotações pode sugerir limitações no dataset, como uma possível sub-representação de poses complexas em muitas das imagens.
+
+![Histograma de contagens de anotações de bovinos](img/anotacoes.png)
 
 ### 3. Boxplot da distribuição de keypoints por categoria
+Este boxplot mostra a variabilidade na distribuição do número de keypoints para diferentes categorias de animais.
+
+Baixa Variabilidade: As categorias exibem uma distribuição estreita de keypoints, com mediana e quartis próximos uns dos outros, o que indica consistência nas anotações entre diferentes categorias.
+
+Ausência de Outliers: A falta de outliers pode indicar que os dados são bem controlados e que não há erros de anotação.
+
+![Boxplot da distribuição de keypoints por categoria](img/distribuicaokeypoints.png)
 
 ### 4. Distribuição de Brilho por Canal RGB
+Este histograma detalha a distribuição média de brilho para cada canal de cor (RGB) nas imagens processadas.
+
+Variação de Brilho: O canal azul mostra uma distribuição mais ampla de brilho, indicando variação na iluminação ou características das imagens que afetam esse canal mais significativamente.
+
+Ainda há algumas implicações, como por exemplo a informação sobre a distribuição de brilho para ajustar o pré-processamento de imagens, isso parece indicar a necessidade de normalização para melhorar as imagens.
+
+![Distribuição de Brilho por Canal RGB](img/rgb.png)
 
 ## Principais limitações
 
